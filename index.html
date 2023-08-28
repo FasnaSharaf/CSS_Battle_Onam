@@ -1,0 +1,1156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=BIZ UDPGothic' rel='stylesheet'>
+    
+    
+   
+    
+    
+    
+    <style type="text/css">
+body {
+    background:#977e03;
+    margin: 0;
+    padding: 0;
+    z-index:7;
+    /*#FE811*/
+  }
+  @font-face {
+    font-family: 'Malayalam';
+    src: url('../fonts/meera.eot');
+    src: url('../fonts/meera.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/meera.woff') format('woff'),
+         url('../fonts/meera.ttf') format('truetype'),
+         url('../fonts/meera.svg#Malayalam') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+  .circle1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height:8.75vw;
+        width:8.75vw;
+        background-color:#b9ac00;
+        border-radius: 50%;
+        z-index:3;
+     }
+      .circle2{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height:19.1vw;
+        width:19.1vw;
+        background-color:rgb(51, 102, 17);
+        border-radius: 50%;
+        z-index:2;
+     }
+     .heart1{
+       width:3.1vw;
+       height:3.1vw;
+       transform: rotate(45deg);
+       transform-origin: center;
+       position: relative;
+       top: -4.5vw;
+       margin: auto;
+       left:-0.3vw;
+       background:rgb(215, 11, 96);
+       transform: rotate(225deg);
+       z-index:3;
+    }
+    .heart1::before, .heart1::after{
+       content: '';
+       position: absolute;
+       width:3.1vw;
+       height:3.1vw;
+       border-radius: 50%;
+       background:rgb(215, 11, 96);
+       
+    }
+    .heart1::before{
+       left:-1.5625vw;
+
+    }
+    .heart1::after{
+       top:-1.5625vw;
+    }
+    
+
+
+    .heart2{
+       width:3.1vw;
+       height:3.1vw;
+       transform: rotate(45deg);
+       transform-origin: center;
+       position: relative;
+       top:7.1vw;
+       margin: auto;
+       background:rgb(215, 11, 96);
+       transform: rotate(45deg);
+       z-index:3;
+    }
+    .heart2::before, .heart2::after{
+       content: '';
+       position: absolute;
+       width:3.1vw;
+       height:3.1vw;
+       border-radius: 50%;
+       background: rgb(215, 11, 96);
+    }
+    .heart2::before{
+       left: -1.5625vw;
+    }
+    .heart2::after{
+       top:-1.5625vw;
+    }
+    
+
+    .heart3{
+       width:3.1vw;
+       height:3.1vw;
+       transform: rotate(45deg);
+       transform-origin: center;
+       position: relative;
+        top:-3.2vw;
+        left:7.4vw;
+        transform: translate(-50%, -50%);
+       margin: auto;
+       background:rgb(215, 11, 96);
+       transform: rotate(-45deg);
+       z-index:6;
+    }
+    .heart3::before, .heart3::after{
+       content: '';
+       position: absolute;
+       width:3.1vw;
+       height:3.1vw;
+       border-radius: 50%;
+       background: rgb(215, 11, 96);
+    }
+    .heart3::before{
+       left: -1.5625vw;
+    }
+    .heart3::after{
+       top: -1.5625vw;
+    }
+
+    .heart4{
+       width:3.1vw;
+       height:3.1vw;
+       transform: rotate(45deg);
+       transform-origin: center;
+       position: relative;
+        top:-5.9vw;
+        left:-7.4vw;
+        transform: translate(-50%, -50%);
+       margin: auto;
+       background:rgb(215, 11, 96);
+       transform: rotate(135deg);
+       z-index:3;
+    }
+    .heart4::before, .heart4::after{
+       content: '';
+       position: absolute;
+       width:3.1vw;
+       height:3.1vw;
+       border-radius: 50%;
+       background: rgb(215, 11, 96);
+    }
+    .heart4::before{
+       left:-1.5625vw;
+    }
+    .heart4::after{
+       top:-1.5625vw;
+    }
+
+    .heart5{
+       width:3.1vw;
+       height:3.1vw;
+       transform: rotate(45deg);
+       transform-origin: center;
+       position: relative;
+        top:-14.5vw;
+        left:-5.6vw ;
+        transform: translate(-50%, -50%);
+       margin: auto;
+       background:rgb(215, 11, 96);
+       transform: rotate(180deg);
+       z-index:3;
+    }
+    .heart5::before, .heart5::after{
+       content: '';
+       position: absolute;
+       width:3.1vw;
+       height:3.1vw;
+       border-radius: 50%;
+       background: rgb(215, 11, 96);
+    }
+    .heart5::before{
+       left: -1.5625vw
+    }
+    .heart5::after{
+       top: -1.5625vw;
+    }
+
+    .heart6{
+       width:3.1vw;
+       height:3.1vw;
+       transform: rotate(45deg);
+       transform-origin: center;
+       position: relative;
+        top:-17.9vw;
+        left: 5.1vw;
+        transform: translate(-50%, -50%);
+       margin: auto;
+       background:rgb(215, 11, 96);
+       transform: rotate(270deg);
+       z-index:3;
+    }
+    .heart6::before, .heart6::after{
+       content: '';
+       position: absolute;
+       width:3.1vw;
+       height:3.1vw;
+       border-radius: 50%;
+       background: rgb(215, 11, 96);
+    }
+    .heart6::before{
+       left: -1.5625vw;
+    }
+    .heart6::after{
+       top:-1.5625vw;
+    }
+
+    .heart7{
+       width:3.1vw;
+       height:3.1vw;
+       transform: rotate(45deg);
+       transform-origin: center;
+       position: relative;
+        top:-10.5vw;
+        left:5.1vw;
+        transform: translate(-50%, -50%);
+       margin: auto;
+       background:rgb(215, 11, 96);
+       transform: rotate(0deg);
+       z-index:3;
+    }
+    .heart7::before, .heart7::after{
+       content: '';
+       position: absolute;
+       width:3.1vw;
+       height:3.1vw;
+       border-radius: 50%;
+       background: rgb(215, 11, 96);
+    }
+    .heart7::before{
+       left: -1.5625vw;
+    }
+    .heart7::after{
+       top: -1.5625vw;
+    }
+
+    .heart8{
+       width:3.1vw;
+       height:3.1vw;
+       transform: rotate(45deg);
+       transform-origin: center;
+       position: relative;
+        top:-13.3vw;
+        left:-5vw;
+        transform: translate(-50%, -50%);
+       margin: auto;
+       background:rgb(215, 11, 96);
+       transform: rotate(90deg);
+       z-index:3;
+    }
+    .heart8::before, .heart8::after{
+       content: '';
+       position: absolute;
+       width:3.1vw;
+       height:3.1vw;
+       border-radius: 50%;
+       background: rgb(215, 11, 96);
+    }
+    .heart8::before{
+       left: -1.5625vw;
+    }
+    .heart8::after{
+       top: -1.5625vw;
+    }
+    .circle3{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-family: 'BIZ UDPGothic';
+        transform: translate(-50%, -50%);
+        transform: scale();
+        height:38.45vw;
+        width:38.45vw;
+        background-color:#d01010;
+        border-radius: 50%;
+        z-index:5;
+        /*#cda214*/
+        /*#72147E*/
+        /**/
+     }
+     .mc1{
+        text-align: center;
+        line-height:9.7vw;
+        font-size:1vw;
+        position:relative;
+        top:3.4vw;
+        left: 19.225vw;
+        transform: translate(-50%, -50%);
+        transform: scale();
+        height:9.7vw;
+        width:9.7vw;
+        background-color:#FE8116;
+        border-radius: 50%;
+        z-index:5;
+        /*#FEDB39*/
+        /*#c0572a*/
+        /*#b9ac00*/
+        
+     }
+     /*.mc1:hover{
+        z-index:5;
+        height:10.5vw;
+        width:10.5vw;
+        
+     }*/
+     .mc2{
+        font-size:1vw;
+        text-align: center;
+        line-height:9.7vw;
+        position:relative;
+        top:-1.5vw;
+        left: 7.6vw;
+        transform: translate(-50%, -50%);
+        transform: scale();
+        height:9.7vw;
+        width:9.7vw;
+        background-color:#FE8116;
+        border-radius: 50%;
+        z-index:4;
+     
+     }
+     /*.mc2:hover{
+        z-index:5;
+        height:10.5vw;
+        width:10.5vw;
+        
+     }*/
+     
+     .mc3{
+        font-size:1vw;
+        text-align: center;
+        line-height:9.7vw;
+        position:relative;
+        top:-12.5vw;
+        left: 31vw;
+        transform: translate(-50%, -50%);
+        transform: scale();
+        height:9.7vw;
+        width:9.7vw;
+        background-color:#FE8116;
+        border-radius: 50%;
+        z-index:4;
+     
+     }
+     /*.mc3:hover{
+        z-index:5;
+        height:10.5vw;
+        width:10.5vw;
+        
+     }*/
+     
+     .mc4{
+        font-size:1vw;
+        text-align: center;
+        line-height:9.7vw;
+        position:relative;
+        top:-12vw;
+        left:5.2vw;
+        transform: translate(-50%, -50%);
+        transform: scale();
+        height:9.7vw;
+        width:9.7vw;
+        background-color:#FE8116;
+        border-radius: 50%;
+        z-index:4;
+     
+     }
+     /*.mc4:hover{
+        z-index:5;
+        height:10.5vw;
+        width:10.5vw;
+        
+     }*/
+     .mc5{
+        font-size:1vw;
+        text-align: center;
+        line-height:9.7vw;
+        position:relative;
+        top:-23.5vw;
+        left: 33.5vw;
+        transform: translate(-50%, -50%);
+        transform: scale();
+        height:9.7vw;
+        width:9.7vw;
+        background-color:#FE8116;
+        border-radius: 50%;
+        z-index:4;
+     
+     }
+     /*.mc5:hover{
+        z-index:5;
+        height:10.5vw;
+        width:10.5vw;
+        
+     }*/
+
+     .mc6{
+        font-size:1vw;
+        text-align: center;
+        line-height:9.7vw;
+        position:relative;
+        top:-24.5vw;
+        left:12.6vw;
+        transform: translate(-50%, -50%);
+        transform: scale();
+        height:9.7vw;
+        width:9.7vw;
+        background-color:#FE8116;
+        border-radius: 50%;
+        z-index:4;
+     
+     }
+     /*.mc6:hover{
+        z-index:5;
+        height:10.5vw;
+        width:10.5vw;
+        
+     }*/
+     .mc7{
+        font-size:1vw;
+        text-align: center;
+        line-height:9.7vw;
+        position:relative;
+        top:-35.5vw;
+        left:25.8vw;
+        transform: translate(-50%, -50%);
+        transform: scale();
+        height:9.7vw;
+        width:9.7vw;
+        background-color:#FE8116;
+        border-radius: 50%;
+        z-index:4;
+     
+     }
+     /*.mc7:hover{
+        z-index:5;
+        height:10.5vw;
+        width:10.5vw;
+        
+     }*/
+
+     img {
+        width:16vw;
+        position: absolute;
+        top:52%;
+       left:0;
+       transform: translate(0%,-50%);
+       z-index:5;
+     }
+   
+     .gc{
+        position: absolute;
+        top: 54%;
+        left: 51%;
+        transform: translate(-50%, -50%);
+        transform: scale();
+        height:40.45vw;
+        width:40.45vw;
+        background-color:#06481e;
+        border-radius: 50%;
+        filter: drop-shadow(-0.5vw 0.5vw 2vw #58610f);
+        z-index:5;
+     }
+    
+    /* @media only screen and (max-width:1343px) and (min-width: 501px){
+        .heart1::before{
+       left: -25px;
+
+    }
+    .heart1::after{
+       top: -25px;
+    }
+     }*/
+     .dc1{
+        position:relative;
+        top:7vh;
+        left:90vw;
+        transform: translate(-50%, -50%);
+        transform: scale();
+        height:7vw;
+        width:7vw;
+        background-color:#ccab05;
+        border-radius: 50%;
+        filter: drop-shadow(0 0.5vw 0.5vw #6d5b02);
+        z-index:4;
+     }
+     .dc2{
+        position:absolute;
+        top:90vh;
+        left:90vw;
+        transform: translate(-50%, -50%);
+        transform: scale();
+        height:7.5vw;
+        width:7vw;
+        background-color:#ccab05;
+        border-radius: 50%;
+        filter: drop-shadow(0 0.5vw 0.5vw #6d5b02);
+        z-index:4;
+     }
+     .dc3{
+        position:absolute;
+        top:20vh;
+        right:16vw;
+        transform: translate(-50%, -50%);
+        transform: scale();
+        height:5vw;
+        width:5vw;
+        background-color:#ccab05;
+        border-radius: 50%;
+        z-index:4;
+     }
+     .dc4{
+        position:absolute;
+        top:37vh;
+        right: 1vw;
+        transform: translate(-50%, -50%);
+        transform: scale();
+        height:5vw;
+        width:5vw;
+        background-color:#ccab05;
+        border-radius: 50%;
+        
+        z-index:4;
+     }
+     .dc5{
+        position:absolute;
+        top:55vh;
+        right:10vw;
+        transform: translate(-50%, -50%);
+        transform: scale();
+        height:9vw;
+        width:9vw;
+        background-color:#ccab05;
+        border-radius: 50%;
+        
+        z-index:4;
+     } 
+     canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:#977e03;
+    z-index:2;
+  }
+  @media screen and (max-width: 810px)
+  {
+
+  }
+     #heading{
+        width:15vw;
+  margin: auto;
+  height:15vh;
+  line-height:15vh;
+  transform: scale(2);
+  
+  
+        position: relative;
+       top:-10vh;
+       left:1vw;
+ 
+       z-index:5;
+     }
+     h1{
+        text-align: center;
+
+
+     }
+
+     /*swing....*/
+     .swing {
+      width: 16rem;
+      height: 8rem;
+      background-color: rgba(206, 216, 91, 0.7);
+      transform-style: preserve-3d;
+      position: absolute;
+      top: 50%;
+      transform-origin: top;
+      animation: swingAnim 4s infinite ease-in-out;
+      z-index: 4;
+    }
+
+    .swing::before {
+      content: "";
+      width: 1rem;
+      height: 100%;
+      background-color: #b4bb65;
+      position: absolute;
+      transform: rotateY(90deg);
+      transform-origin: left;
+    }
+
+    .swing::after {
+      content: "";
+      height: 1rem;
+      width: 100%;
+      background-color: #e2ec6c;
+      position: absolute;
+      bottom: 0;
+      transform: rotateX(90deg);
+      transform-origin: bottom;
+    }
+
+    .circle {
+      width: 2rem;
+      height: 2rem;
+      background-color: #c5c757;
+      border-radius: 50%;
+      position: absolute;
+      display: grid;
+      place-items: center;
+      transform-style: preserve-3d;
+    }
+
+    .circle-1 {
+      top: 1rem;
+      left: 1rem;
+    }
+
+    .circle-2 {
+      top: 1rem;
+      right: 1rem;
+    }
+
+    .circle-3 {
+      bottom: 1rem;
+      right: 1rem;
+    }
+
+    .circle-4 {
+      bottom: 1rem;
+      left: 1rem;
+    }
+
+    .rope {
+      height: 50rem;
+      width: 0.25rem;
+      background-color: #fff;
+      position: absolute;
+      transform: translateZ(22rem) rotateX(90deg) rotateY(90deg);
+      transform-origin: top;
+    }
+
+    .rope-1 {
+      top: 4.5rem;
+      left: 2rem;
+    }
+
+    .rope-2 {
+      top: 5rem;
+      right: 2.5rem;
+    }
+
+    .rope::before {
+      content: "";
+      width: 0.25rem;
+      height: 23rem;
+      background-color: #fff;
+      position: absolute;
+      transform: translateY(-23rem) rotateZ(5deg);
+      transform-origin: bottom;
+    }
+
+    .rope::after {
+      content: "";
+      width: 0.25rem;
+      height: 23rem;
+      background-color: #fff;
+      position: absolute;
+      transform: translateY(-23rem) rotateZ(-5deg);
+      transform-origin: bottom;
+    }
+
+    @keyframes swingAnim {
+      0%, 100% {
+        transform: rotateX(70deg) rotateZ(-40deg) rotateY(5deg) translateY(0);
+      }
+      50% {
+        transform: rotateX(70deg) rotateZ(-40deg) rotateY(5deg) translateY(-20rem);
+      }
+    }
+
+    /*flower-of-life*/
+    .flower-of-life {
+  margin: auto;
+  font-size: 1.62vw;
+  width: calc(3 * 2em);
+  height: calc(3 * 2em);
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1px solid rgb(51, 102, 17);
+  box-sizing: border-box;
+  z-index: 4;
+}
+.flower-of-life .petal {
+  width: 2em;
+  height: 2em;
+  position: absolute;
+  margin: auto;
+  box-sizing: border-box;
+  top: -2em;
+  left: -2em;
+  border-radius: 50%;
+  border: 1px solid rgb(51, 102, 17);
+  z-index: 4;
+  /* background: rgba(#fff, .3); */
+  /*&:after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background: #f00;
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin: auto;
+  }*/
+  /*    
+      &:nth-child(20) { top: 0em; left: .27em }
+      &:nth-child(21) { top: 4em; left: .27em }
+
+      &:nth-child(22) { top: 1.5em; left: -.6em }
+      &:nth-child(23) { top: 3.5em; left: -.6em }*/
+}
+.flower-of-life .petal:nth-child(1) {
+  top: 0em;
+  left: 2em;
+}
+.flower-of-life .petal:nth-child(2) {
+  top: 1em;
+  left: 2em;
+}
+.flower-of-life .petal:nth-child(3) {
+  top: 2em;
+  left: 2em;
+}
+.flower-of-life .petal:nth-child(4) {
+  top: 3em;
+  left: 2em;
+}
+.flower-of-life .petal:nth-child(5) {
+  top: 4em;
+  left: 2em;
+}
+.flower-of-life .petal:nth-child(6) {
+  top: 0.5em;
+  left: 1.15em;
+}
+.flower-of-life .petal:nth-child(7) {
+  top: 1.5em;
+  left: 1.15em;
+}
+.flower-of-life .petal:nth-child(8) {
+  top: 2.5em;
+  left: 1.15em;
+}
+.flower-of-life .petal:nth-child(9) {
+  top: 3.5em;
+  left: 1.15em;
+}
+.flower-of-life .petal:nth-child(10) {
+  top: 0.5em;
+  left: 2.88em;
+}
+.flower-of-life .petal:nth-child(11) {
+  top: 1.5em;
+  left: 2.88em;
+}
+.flower-of-life .petal:nth-child(12) {
+  top: 2.5em;
+  left: 2.88em;
+}
+.flower-of-life .petal:nth-child(13) {
+  top: 3.5em;
+  left: 2.88em;
+}
+.flower-of-life .petal:nth-child(14) {
+  top: 1em;
+  left: 0.26em;
+}
+.flower-of-life .petal:nth-child(15) {
+  top: 2em;
+  left: 0.26em;
+}
+.flower-of-life .petal:nth-child(16) {
+  top: 3em;
+  left: 0.26em;
+}
+.flower-of-life .petal:nth-child(17) {
+  top: 1em;
+  left: 3.75em;
+}
+.flower-of-life .petal:nth-child(18) {
+  top: 2em;
+  left: 3.75em;
+}
+.flower-of-life .petal:nth-child(19) {
+  top: 3em;
+  left: 3.75em;
+}
+
+  </style>
+</head>
+<body>
+    
+<canvas height="400px" width="3000px"></canvas>
+<script>
+let canvas = document.querySelector('canvas');
+let c = canvas.getContext('2d');
+
+canvas.height = window.innerHeight;
+canvas.width = window.innerWidth;
+
+const ch = c.canvas.height;
+const cw = c.canvas.width;
+
+let h = 0;
+let increment = 3;
+let flakes = [];
+let snowAmount = 10;
+let randomInterval = 200;
+let index = 0;
+
+
+function drawSnow(x, y){
+    c.beginPath();
+    c.arc(x, y, 4, 0, Math.PI*2);
+    c.fillStyle = '#ffffff44';
+    c.fill();
+
+    c.beginPath();
+    c.arc(x, y, 2, 0, Math.PI*2);
+    c.fillStyle = '#977e03';
+    c.fill();
+}
+
+function eraseSnow(x, y){
+    c.beginPath();
+    c.arc(x, y - increment, 6, 0, Math.PI*2);
+    c.fillStyle = '#977e03';
+    c.fill();
+}
+
+function setIncrements(){
+    let level = [];
+    let randomX = [];
+    flakes.forEach((snow, i) => {
+        if(snow === false){
+            level[i] = 0;
+            randomX[i] = Math.floor(Math.random() * (cw - 0 + 1)) + 0;
+            flakes[i] = 'snow'+i;
+            flakes[i] = setInterval(() => {
+                if(level[i] < ch + 10){
+                    eraseSnow(randomX[i], level[i]);
+                    drawSnow(randomX[i], level[i]);
+                    level[i]++;
+                } else {
+                    clearInterval(flakes[i]);
+                    flakes.splice(i, 1, false);
+                    flakes[i] = false;
+                    setIncrements();
+                }
+            }, 3);
+        }
+    });
+}
+
+function setSnow(){  
+    let timer = setInterval(() => {
+        if(index < 100){
+            flakes[index] = false;
+            index++; 
+            setIncrements();
+        } else {
+            clearInterval(timer);
+            index = 0;
+        }
+        
+    }, randomInterval);
+}
+
+setSnow();
+</script>
+
+<div class="gc">
+    <!--<div id="heading">
+        <h1 style="color:red"><div>
+            <h1 style="color:red">ന്നാ ബാ ഓണം കൂടാം...</h1>-->
+            <div id="heading">  
+                <img src="Images homepage/onamhead.png">
+        
+            
+        </div>
+    <div class="circle3">
+        <div class="mc1"><h4>
+         <div class='flower-of-life'>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+          </div></h4></div><!--top-->
+        <div class="mc2"><h4>
+         <div class='flower-of-life'>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+          </div>
+        </h4></div><!--left top-->
+        <div class="mc3"><h4>
+      
+         <div class='flower-of-life'>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+          </div></h4></div><!--right top-->
+        <div class="mc4"><h4>
+      
+         <div class='flower-of-life'>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+          </div></h4></div><!--left bottom-->
+        <div class="mc5"><h4>
+         <div class='flower-of-life'>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+          </div>
+        </h4></div><!--right bottom-->
+        <div class="mc6"><h4>
+      
+         <div class='flower-of-life'>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+          </div></h4></div><!--bottom left-->
+        <div class="mc7"><h4>
+      
+         <div class='flower-of-life'>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+            <div class='petal'></div>
+          </div></h4></div><!--bottom right-->
+        <div class="circle1">
+            
+            <div class="heart1"></div> <!--top-->
+            <div class="heart2"></div><!--bottom-->
+            <div class="heart3"></div><!--right-->
+            <div class="heart4"></div><!--left-->
+            <div class="heart5"></div><!--northwest-->
+            <div class="heart6"></div><!--northeast-->
+            <div class="heart7"></div><!--southeast-->
+            <div class="heart8"></div><!--southwest-->
+        </div>
+        <div class="circle2"></div>
+    </div>
+</div>
+<div><img src="Images homepage/kathakali final.png" alt="kathakali" /></div>
+<div class="dc1"></div>
+<div class="dc2"></div>
+<div class="dc3"></div>
+<div class="dc4"></div>
+<div class="dc5"></div>
+
+   <div class="swing" style="transform: scale(0.1); position: absolute; left: 75%; top: 70%;">
+      <div class="circle circle-1"></div>
+      <div class="circle circle-2"></div>
+      <div class="circle circle-3"></div>
+      <div class="circle circle-4"></div>
+      <div class="rope rope-1"></div>
+      <div class="rope rope-2"></div>
+    </div>
+
+   
+      
+
+
+<!--<div>
+    <p id="demo"></p>
+
+<script>
+var w = window.innerWidth;
+var k = window.innerHeight;
+
+var x = document.getElementById("demo");
+x.innerHTML = "Browser width: " + w + ", height: " + k + ".";
+</script>
+</div>    -->
+
+
+
+
+</body>
+</html>
